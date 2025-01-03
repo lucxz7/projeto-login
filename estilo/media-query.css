@@ -12,7 +12,9 @@
     
     section{
         width: 90vw;
-        height: 34vh;
+        height: 34vw;
+        display: flex;
+        margin: auto;
     }
 
     #img{
@@ -25,11 +27,12 @@
 
     #login{
         float: right;
-        width:  70%;
+        width:  100%;
         position: relative;
+        height: px;
     }
     input{
-        display: block;
+        display:flex;
         width: 100%;
     }
         
