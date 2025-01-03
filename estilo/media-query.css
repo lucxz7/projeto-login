@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82 );
+    }
+    
+    
+    
+    
+    section{
+        width: 90vw;
+        height: 30vh;
+    }
+
+    #img{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: top right;
+        border-radius: 20px 0 0 20px;
+    }
+
+    #login{
+        float: right;
+        width:  70%;
+        top: 5%;
+        position: relative;
+    }
+    input{
+        display: block;
+        width: 100%;
+    }
+        
+    
+}
+
+@media screen and (min-width: 992px) and 
+(max-width: 1200px) {
+
+
+    body{
+        background-image: linear-gradient(to top, 
+   #49a09d, #5f2c82 );
+    }
+    
+
+
+section{
+    width: 990px;
+    height: 30vh;
+}
+
+    #img{
+        float: right;
+        width: 30%;
+        height: 100%;
+        border-radius: 0 20px 20px 0 ;
+    }
+    #login{
+        float: left;
+        position: relative;
+        width: 70%;
+
+    }
+    input{
+        display: block;
+    }
+}
