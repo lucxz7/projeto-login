@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #5f2c82;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+#login{
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+div h1{
+    padding-bottom: 10px;
+}
+
+div p{
+    text-align: left;
+}
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.411);
+    transition: 400ms;
+    width: 250px;
+    height: 500px;
+   
+   
+
+
+}
+
+
+#img{
+    background: #5f2c82 url(../imagens/zelda\ -\ Copia.png) no-repeat;
+    height: 200px;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+}
+
+input{
+    padding: 8px;
+    border-radius: 8px;
+    margin: 5px;
+    border: 2px solid #5f2c82;
+    background-color: #49a09d;
+}
+
+#entrar{
+    margin: auto;
+    background-color: 49a09d;
+    color: white;
+    width: 100%;
+    margin-bottom: 3px;
+    border: 0;
+    cursor: pointer;
+    
+}
+
+#senha{
+    margin: auto;
+    width: 100%;
+    color:  49a09d;
+    background-color: white ;
+    border: 1px solid rgb(97, 91, 91);
+    cursor: pointer;
+}
