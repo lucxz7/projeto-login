@@ -12,9 +12,8 @@
     
     section{
         width: 90vw;
-        height: 34vw;
+        height: 35vw;
         display: flex;
-        margin: auto;
     }
 
     #img{
@@ -23,17 +22,16 @@
         height: 100%;
         background-position: top right;
         border-radius: 20px 0 0 20px;
+        flex: auto;
     }
 
     #login{
-        float: right;
-        width:  100%;
-        position: relative;
-        height: px;
+        flex: auto;
+
     }
-    input{
-        display:flex;
+    input   {
         width: 100%;
+        flex: auto;
     }
         
     
